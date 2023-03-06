@@ -1,4 +1,13 @@
 .header{
     font-family: 'Quicksand';
     font-style: normal;
+    display: flex;
+    flex-direction: row;
+}
+
+.bandeau {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
