@@ -2,7 +2,7 @@ import React from 'react'
 //import logo from '../../logo.svg'
 import photo from '../../assets/Photo2.png'
 import './header.css'
-import Navbar from './Navbar/Navbar'
+import Navbar from '../Navbar/Navbar'
 
 export default function Header() {
     return (
