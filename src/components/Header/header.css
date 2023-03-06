@@ -3,6 +3,13 @@
     font-style: normal;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    height: 200px;
+    background-color: #293E9C;
+    margin: 0 auto;
+    color: white;
+    margin-top:2%;
 }
 
 .bandeau {
@@ -10,4 +17,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.photo {
+    height: 150px;
+    margin-top:25px;
+}
+
+h1 {
+    font-size: 36px;
 }
