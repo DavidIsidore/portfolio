@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.stack_dev {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.logoGit, .logoLinked, .logoArch {
+    width: 40px;
+}
