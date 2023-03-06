@@ -5,6 +5,9 @@
     background-color: #293E9C;
     height: 150px;
     align-items: center;
+    width:95%;
+    align-content:center;
+    margin-left: 2.5%;
 }
 
 .logos {
