@@ -8,15 +8,17 @@
     margin-top:2%;
 }
 
-.content_about, .content_way, .content_done {
+.content_single {
     width:30%;
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #E5AD24;
+    border-radius: 25px;
 }
 
 .quisuisje, .myway, .myworks {
     font-size: 20px;
+    color:black;
 }
