@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/DavidIsidore/portfolio/static/css/main.baa5d0f2.css",
-    "main.js": "/DavidIsidore/portfolio/static/js/main.05edd67d.js",
-    "static/media/Photo2.png": "/DavidIsidore/portfolio/static/media/Photo2.798c2478f2dd3057ec90.png",
-    "static/media/github.svg": "/DavidIsidore/portfolio/static/media/github.566c7bedaf3ffffa06be08bd6063eca1.svg",
-    "index.html": "/DavidIsidore/portfolio/index.html",
-    "static/media/archlinux.svg": "/DavidIsidore/portfolio/static/media/archlinux.1386c885a35d9a619062a717909c4fb0.svg",
-    "static/media/linkedin.svg": "/DavidIsidore/portfolio/static/media/linkedin.e6caf06bea36e8c1fd7545706cd71c86.svg",
-    "main.baa5d0f2.css.map": "/DavidIsidore/portfolio/static/css/main.baa5d0f2.css.map",
-    "main.05edd67d.js.map": "/DavidIsidore/portfolio/static/js/main.05edd67d.js.map"
+    "main.css": "/portfolio/static/css/main.154d3995.css",
+    "main.js": "/portfolio/static/js/main.bd4eac40.js",
+    "static/media/Photo2.png": "/portfolio/static/media/Photo2.798c2478f2dd3057ec90.png",
+    "static/media/github.svg": "/portfolio/static/media/github.566c7bedaf3ffffa06be08bd6063eca1.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/archlinux.svg": "/portfolio/static/media/archlinux.1386c885a35d9a619062a717909c4fb0.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.e6caf06bea36e8c1fd7545706cd71c86.svg",
+    "main.154d3995.css.map": "/portfolio/static/css/main.154d3995.css.map",
+    "main.bd4eac40.js.map": "/portfolio/static/js/main.bd4eac40.js.map"
   },
   "entrypoints": [
-    "static/css/main.baa5d0f2.css",
-    "static/js/main.05edd67d.js"
+    "static/css/main.154d3995.css",
+    "static/js/main.bd4eac40.js"
   ]
 }
