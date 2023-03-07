@@ -1,6 +1,13 @@
 .footer {
     display: flex;
     flex-direction: column;
+    margin-top:2%;
+    background-color: #293E9C;
+    height: 150px;
+    align-items: center;
+    width:95%;
+    align-content:center;
+    margin-left: 2.5%;
 }
 
 .logos {
@@ -16,6 +23,7 @@
     flex-direction: row;
     width: 250px;
     margin: 0 auto;
+    color:white;
 }
 
 .logoGit, .logoLinked, .logoArch {
