@@ -1,12 +1,15 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
+import './header.scss'
 
 export default function Header() {
     return (
-        <div>
-            <div>
+        <div className="header">
+            <div className="header_presentation">
                 <h1>David ISIDORE</h1>
                 <h2>Développeur Front-End Junior</h2>
             </div>
+            <Navbar />
         </div>
     )
 }
