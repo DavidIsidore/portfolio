@@ -9,7 +9,9 @@ export default function Navbar() {
                 <li className="accueil">
                     <Link to="/">Accueil</Link>
                 </li>
-                <li></li>
+                <li className="about">
+                    <Link to="/about">Qui suis-je</Link>
+                </li>
                 <li></li>
             </ul>
         </nav>

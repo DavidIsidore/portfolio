@@ -4,6 +4,7 @@
     @include flex(row, center, center);
     &_list {
         list-style: none;
+        @include flex(row, space-between, center);
     }
 }
 
