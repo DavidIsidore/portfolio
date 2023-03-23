@@ -1,5 +1,6 @@
 import React from 'react'
 import './content.scss'
+import computer from '../../assets/Computer.png'
 
 export default function Content() {
     return (
@@ -7,7 +8,9 @@ export default function Content() {
             <div className="content_text">Bla Bla</div>
             <div className="content_presentation">
                 <div></div>
-                <div></div>
+                <div>
+                    <img src={computer} alt="image écran" />
+                </div>
             </div>
         </main>
     )
