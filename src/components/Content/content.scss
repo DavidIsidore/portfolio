@@ -4,4 +4,15 @@
     background-color: $color-secondary;
     height: 700px;
     color: $color-tertiary;
+    &_presentation {
+        @include flex(row, space-between, center);
+        width: 90%;
+        &_img {
+            width: 45%;
+        }
+    }
+}
+
+.img_single {
+    width: 450px;
 }
