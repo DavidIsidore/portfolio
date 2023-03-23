@@ -13,8 +13,8 @@ export default function Presentation() {
             </div>
             <div className="presentation_block">
                 <div className="presentation_block_img">
-                    <img src={photo} alt="identité" />
-                    <p>La personne</p>
+                    <img src={photo} alt="identité" className="img_single" />
+                    <p className="presentation_block_text">La personne</p>
                 </div>
                 <div className="presentation_block_img">
                     <img
@@ -22,7 +22,7 @@ export default function Presentation() {
                         alt="représentation écran"
                         className="img_single"
                     />
-                    <p>Le développeur</p>
+                    <p className="presentation_block_text">Le développeur</p>
                 </div>
             </div>
         </main>

@@ -9,12 +9,24 @@
         top: 50px;
     }
     &_block {
-        @include flex(row, center, center);
+        @include flex(row, space-between, center);
         position: relative;
         bottom: -240px;
+        width: 600px;
+        &_img {
+            gap: 50px;
+        }
+        &_text {
+            font-size: 24px;
+        }
     }
 }
 
 .img_single {
     width: 256px;
+    border-radius: 25px;
+}
+
+.presentation_block_img:hover {
+    transform: scale(1.2);
 }
