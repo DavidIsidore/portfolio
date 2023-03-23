@@ -1,0 +1,7 @@
+@import '../../sass/main.scss';
+
+.footer {
+    background-color: $color-primary;
+    @include flex(row, flex-end, center);
+    color: white;
+}
