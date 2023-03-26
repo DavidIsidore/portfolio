@@ -4,4 +4,10 @@
     background-color: $color-primary;
     @include flex(row, flex-end, center);
     color: white;
+    position: relative;
+    bottom: -450px;
+    &_text {
+        position: relative;
+        right: 50px;
+    }
 }

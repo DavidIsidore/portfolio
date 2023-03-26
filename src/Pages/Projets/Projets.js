@@ -1,16 +1,14 @@
 import React from 'react'
-import Header from '../../components/Header/Header'
 import Bandeau from '../../components/Bandeau/Bandeau'
+import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
-import './contact.scss'
 
-export default function Contact() {
+export default function Projets() {
     return (
-        <main>
+        <div>
             <Bandeau />
             <Header />
-
             <Footer />
-        </main>
+        </div>
     )
 }

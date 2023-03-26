@@ -1,8 +1,9 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
-import Content from '../../components/Content/Content'
+//import Content from '../../components/Content/Content'
 import Bandeau from '../../components/Bandeau/Bandeau'
+import Presentation from '../../components/Presentation/Presentation'
 import './home.scss'
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
         <div>
             <Bandeau />
             <Header />
-            <Content />
+            <Presentation />
             <Footer />
         </div>
     )

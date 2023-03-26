@@ -7,9 +7,14 @@ export default function Presentation() {
     return (
         <main className="presentation">
             <div className="presentation_text">
-                Hello! Vous êtes au bon endroit pour en savoir un peu plus sur
-                moi. Mais, pour commencer, qui voulez-vous connaître mieux en
-                premier?
+                <p>
+                    Hello! Vous êtes au bon endroit pour en savoir un peu plus
+                    sur moi.
+                </p>{' '}
+                <p>
+                    Mais, pour commencer, qui voulez-vous connaître mieux en
+                    premier?{' '}
+                </p>
             </div>
             <div className="presentation_block">
                 <div className="presentation_block_img">

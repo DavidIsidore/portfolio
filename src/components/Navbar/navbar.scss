@@ -1,11 +1,15 @@
 @import '../../sass/main.scss';
 
 .nav {
-    @include flex(row, center, center);
-    width: 300px;
+    @include flex(row, space-evenly, center);
+    width: 5 800px;
     &_list {
         list-style: none;
         @include flex(row, space-between, center);
+        width: 800px;
+        &_logo {
+            width: 50px;
+        }
     }
 }
 
