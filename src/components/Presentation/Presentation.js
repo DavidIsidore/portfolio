@@ -11,10 +11,7 @@ export default function Presentation() {
                     Hello! Vous êtes au bon endroit pour en savoir un peu plus
                     sur moi.
                 </p>{' '}
-                <p>
-                    Mais, pour commencer, qui voulez-vous connaître mieux en
-                    premier?{' '}
-                </p>
+                <p>Qui voulez-vous découvrir en premier? </p>
             </div>
             <div className="presentation_block">
                 <div className="presentation_block_img">

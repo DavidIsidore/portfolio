@@ -2,13 +2,14 @@
 
 .nav {
     @include flex(row, space-evenly, center);
-    width: 5 800px;
+    width: 800px;
     &_list {
         list-style: none;
         @include flex(row, space-between, center);
         width: 800px;
         &_logo {
             width: 50px;
+            visibility: hidden;
         }
     }
 }

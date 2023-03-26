@@ -13,19 +13,19 @@ export default function Navbar() {
                 <li className="accueil">
                     <Link to="/">
                         <img src={home} alt="home" className="nav_list_logo" />
-                        Accueil
+                        <p className="nav_list_text">Accueil</p>
                     </Link>
                 </li>
                 <li className="about">
                     <Link to="/about">
                         <img src={user} alt="user" className="nav_list_logo" />
-                        Qui suis-je
+                        <p className="nav_list_text">Qui suis-je</p>
                     </Link>
                 </li>
                 <li className="projets">
                     <Link to="/projets">
                         <img src={code} alt="code" className="nav_list_logo" />
-                        Mes projets
+                        <p className="nav_list_text">Mes projets</p>
                     </Link>
                 </li>
                 <li className="contact">
@@ -35,7 +35,7 @@ export default function Navbar() {
                             alt="enveloppe"
                             className="nav_list_logo"
                         />{' '}
-                        Contact
+                        <p className="nav_list_text">Contact</p>
                     </Link>
                 </li>
             </ul>
