@@ -6,8 +6,14 @@
 
 h1 {
     font-size: 36px;
+    @media screen and (max-width: 992px) {
+        font-size: clamp(20px, 3vw, 36px);
+    }
 }
 
 h2 {
     font-size: 30px;
+    @media screen and (max-width: 992px) {
+        font-size: clamp(16px, 3vw, 30px);
+    }
 }

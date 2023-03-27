@@ -7,9 +7,11 @@
         list-style: none;
         @include flex(row, space-between, center);
         width: 800px;
-        &_logo {
-            width: 50px;
-            visibility: hidden;
+        &_text {
+            text-decoration: none;
+            &_active {
+                text-decoration: underline 2px solid #293e9c;
+            }
         }
     }
 }
