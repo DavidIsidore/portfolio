@@ -3,7 +3,7 @@ const projets = [
         id: '1',
         title: 'Booki',
         link: 'https://davidisidore.github.io/Livrables-P2/',
-        img: '../../assets/Booki.png',
+        img: 'https://kdrive.infomaniak.com/app/drive/233916/files/20401/preview/image/20402',
         description:
             'Premier projet développé, dans le cadre de ma reconversion, avec HTML et CSS',
     },
@@ -22,7 +22,7 @@ const projets = [
             'https://davidisidore.github.io/LaPanthere/',
         ],
         img: '../../assets/la_panthere.png',
-        description: "OPtimisation d'un site existant",
+        description: "Optimisation d'un site existant",
     },
     {
         id: '4',
