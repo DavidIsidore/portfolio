@@ -1,0 +1,10 @@
+@import '../../sass/main.scss';
+
+.joinme {
+    position: relative;
+    top: 100px;
+    @include flex(column, center, center);
+    &_logo {
+        width: 50px;
+    }
+}
