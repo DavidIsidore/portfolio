@@ -8,11 +8,11 @@ import './callme.scss'
 export default function Callme() {
     return (
         <div className="join">
-            <p>Vous pouvez me joindre</p>
+            <h1>Comment me joindre :</h1>
             <div className="join_me">
                 <div className="call">
                     <img src={phone} alt="telephone" className="join_me_logo" />
-                    <p>06 79 85 25 16</p>
+                    <p className="join_me_text">06 79 85 25 16</p>
                 </div>
                 <div className="mail">
                     <img
@@ -21,7 +21,7 @@ export default function Callme() {
                         className="join_me_logo"
                     />
                     <a href="mailto:isidoredavid@gmail.com">
-                        isidoredavid@gmail.com
+                        <p className="join_me_text">isidoredavid@gmail.com</p>
                     </a>
                 </div>
                 <div className="linked">
@@ -33,7 +33,7 @@ export default function Callme() {
                         />
                     </Link>
 
-                    <p>Sur LinkedIn</p>
+                    <p className="join_me_text">Sur LinkedIn</p>
                 </div>
             </div>
         </div>

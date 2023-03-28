@@ -6,7 +6,11 @@
     &_list {
         list-style: none;
         @include flex(row, space-between, center);
-        width: 800px;
+        width: 600px;
+        @media screen and (max-width: 992px) {
+            @include flex(column, center, center);
+            gap: 30px;
+        }
         &_text {
             text-decoration: none;
             &_active {

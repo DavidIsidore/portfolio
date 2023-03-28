@@ -6,9 +6,13 @@
     &_me {
         @include flex(column, center, center);
         position: relative;
+        gap: 30px;
         top: 30px;
         &_logo {
             width: 40px;
+        }
+        &_text {
+            font-size: 22px;
         }
     }
 }
@@ -17,5 +21,5 @@
 .mail,
 .linked {
     width: 500px;
-    @include flex(row, space-evenly, center);
+    @include flex(row, space-around, center);
 }
