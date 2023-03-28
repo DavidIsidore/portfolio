@@ -25,11 +25,13 @@ export default function Callme() {
                     </a>
                 </div>
                 <div className="linked">
-                    <img
-                        src={linkedin}
-                        alt="linkedin"
-                        className="join_me_logo"
-                    />
+                    <Link to="https://www.linkedin.com/in/davidisidore">
+                        <img
+                            src={linkedin}
+                            alt="linkedin"
+                            className="join_me_logo"
+                        />
+                    </Link>
 
                     <p>Sur LinkedIn</p>
                 </div>
