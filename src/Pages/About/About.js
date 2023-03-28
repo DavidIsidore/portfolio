@@ -8,6 +8,7 @@ export default function About() {
         <div>
             <Bandeau />
             <Header />
+            <div></div>
             <Footer />
         </div>
     )

@@ -5,6 +5,7 @@ import Footer from '../../components/Footer/Footer'
 import Bandeau from '../../components/Bandeau/Bandeau'
 import Presentation from '../../components/Presentation/Presentation'
 import './home.scss'
+import Button from '../../components/Button/Button'
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <Bandeau />
             <Header />
             <Presentation />
+            <Button />
             <Footer />
         </div>
     )
