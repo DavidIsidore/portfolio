@@ -8,8 +8,8 @@ export default function Presentation() {
         <main className="presentation">
             <div className="presentation_text">
                 <p>
-                    Hello! Vous êtes au bon endroit pour en savoir un peu plus
-                    sur moi.
+                    Bienvenue ! Vous êtes au bon endroit pour en savoir un peu
+                    plus sur moi.
                 </p>{' '}
                 <p>Qui voulez-vous découvrir en premier? </p>
             </div>

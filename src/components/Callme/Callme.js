@@ -2,6 +2,7 @@ import React from 'react'
 import phone from '../../assets/phone-solid.svg'
 import envelop from '../../assets/envelope-solid.svg'
 import linkedin from '../../assets/linkedin.svg'
+import { Link } from 'react-router-dom'
 import './callme.scss'
 
 export default function Callme() {
@@ -19,7 +20,9 @@ export default function Callme() {
                         alt="enveloppe"
                         className="join_me_logo"
                     />
-                    <p>isidoredavid@gmail.com</p>
+                    <a href="mailto:isidoredavid@gmail.com">
+                        isidoredavid@gmail.com
+                    </a>
                 </div>
                 <div className="linked">
                     <img
@@ -27,6 +30,7 @@ export default function Callme() {
                         alt="linkedin"
                         className="join_me_logo"
                     />
+
                     <p>Sur LinkedIn</p>
                 </div>
             </div>
