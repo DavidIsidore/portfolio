@@ -5,9 +5,12 @@
     height: 100px;
     font-size: 24px;
     background-color: $color-primary;
-    color: white;
+
     position: relative;
     bottom: -400px;
     border-radius: 25px;
     cursor: pointer;
+    &_text {
+        color: white;
+    }
 }

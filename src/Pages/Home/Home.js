@@ -13,7 +13,6 @@ export default function Home() {
             <Bandeau />
             <Header />
             <Presentation />
-            <Button />
             <Footer />
         </div>
     )
