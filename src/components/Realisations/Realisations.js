@@ -4,36 +4,57 @@ import food from '../../assets/ohmyfood.png'
 import panthere from '../../assets/la_panthere.png'
 import kasa from '../../assets/Kasa.svg'
 import { Link } from 'react-router-dom'
+import './realisations.scss'
 
 export default function Realisations() {
     return (
-        <div>
+        <div className="main">
             <div>
                 <h1>Mes réalisations</h1>
                 <h2>Dans le cadre de ma formation de Développeur Web</h2>
 
-                <div>
+                <div className="realisations">
                     <Link
                         to="https://davidisidore.github.io/Livrables-P2/"
                         target="_blank"
                     >
-                        <img src={booki} alt="logo Booki" />
-                        Booki
+                        <img
+                            src={booki}
+                            alt="logo Booki"
+                            className="realisations_logo"
+                        />
                     </Link>
 
                     <Link
                         to="https://davidisidore.github.io/Projet3/"
                         target="_blank"
                     >
-                        <img src={food} alt="logo OhMyFood" />
-                        OhMyFood
+                        <img
+                            src={food}
+                            alt="logo OhMyFood"
+                            className="realisations_logo"
+                        />
+                    </Link>
+                    <Link
+                        to="https://davidisidore.github.io/LaPanthere/"
+                        target="_blank"
+                    >
+                        <img
+                            src={panthere}
+                            alt="logo La Panthère"
+                            className="realisations_logo"
+                        />
                     </Link>
 
                     <Link
                         to="https://davidisidore.github.io/Kasa/"
                         target="_blank"
                     >
-                        <img src={kasa} alt="logo Kasa" /> Kasa
+                        <img
+                            src={kasa}
+                            alt="logo Kasa"
+                            className="realisations_logo"
+                        />
                     </Link>
                 </div>
             </div>
