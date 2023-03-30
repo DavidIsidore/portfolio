@@ -12,15 +12,19 @@
     }
 }
 
-.wordpress_text {
-    font-size: 24px;
-    position: relative;
-    top: 30px;
-    line-height: 200%;
-    &_link {
+.wordpress {
+    width: 75%;
+    margin: 0 auto;
+    &_text {
         font-size: 24px;
-        color: $color-primary;
         position: relative;
-        top: 40px;
+        top: 30px;
+        line-height: 200%;
+        &_link {
+            font-size: 24px;
+            color: $color-primary;
+            position: relative;
+            top: 40px;
+        }
     }
 }
