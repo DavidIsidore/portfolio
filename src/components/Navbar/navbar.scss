@@ -9,6 +9,7 @@
         width: 600px;
         @media screen and (max-width: 992px) {
             @include flex(column, center, center);
+            width: 200px;
             gap: 30px;
         }
         &_text {
