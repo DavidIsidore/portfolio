@@ -60,13 +60,21 @@ export default function Realisations() {
             </div>
             <div>
                 <h2>Autres travaux</h2>
-                <div>
+                <div className="wordpress">
+                    <p className="wordpress_text">
+                        Avant de commencer ma formation de développeur Web, je
+                        m'étais déjà frotté à la création de contenu en
+                        réalisant le site d'une amie psychopraticienne sous
+                        Wordpress.
+                    </p>
                     <Link
                         to="https://caroline-gayral.com/"
                         target="_blank"
                         className="link"
                     >
-                        caroline-gayral.com
+                        <p className="wordpress_text_link">
+                            caroline-gayral.com
+                        </p>
                     </Link>
                 </div>
             </div>
