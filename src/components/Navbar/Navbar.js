@@ -32,7 +32,7 @@ export default function Navbar() {
                             className={
                                 location.pathname === '/about'
                                     ? 'nav_list_text_active'
-                                    : 'nav_list-text'
+                                    : 'nav_list_text'
                             }
                         >
                             Qui suis-je
