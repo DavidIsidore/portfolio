@@ -14,26 +14,28 @@ export default function Callme() {
                     <img src={phone} alt="telephone" className="join_me_logo" />
                     <p className="join_me_text">06 79 85 25 16</p>
                 </div>
-                <div className="mail">
-                    <img
-                        src={envelop}
-                        alt="enveloppe"
-                        className="join_me_logo"
-                    />
-                    <a href="mailto:isidoredavid@gmail.com">
+                <div>
+                    <a href="mailto:isidoredavid@gmail.com" className="mail">
+                        <img
+                            src={envelop}
+                            alt="enveloppe"
+                            className="join_me_logo"
+                        />
                         <p className="join_me_text">isidoredavid@gmail.com</p>
                     </a>
                 </div>
-                <div className="linked">
-                    <Link to="https://www.linkedin.com/in/davidisidore">
+                <div>
+                    <Link
+                        to="https://www.linkedin.com/in/davidisidore"
+                        className="linked"
+                    >
                         <img
                             src={linkedin}
                             alt="linkedin"
                             className="join_me_logo"
                         />
+                        <p className="join_me_text">Sur LinkedIn</p>
                     </Link>
-
-                    <p className="join_me_text">Sur LinkedIn</p>
                 </div>
             </div>
         </div>
