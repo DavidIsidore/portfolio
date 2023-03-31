@@ -11,7 +11,6 @@ export default function Realisations() {
         <div className="main">
             <div>
                 <h1>Mes réalisations</h1>
-                <h2>Dans le cadre de ma formation de Développeur Web</h2>
 
                 <div className="realisations">
                     <Link
@@ -59,13 +58,12 @@ export default function Realisations() {
                 </div>
             </div>
             <div>
-                <h2>Autres travaux</h2>
                 <div className="wordpress">
                     <p className="wordpress_text">
                         Avant de commencer ma formation de développeur Web, je
                         m'étais déjà frotté à la création de contenu en
-                        réalisant le site d'une amie psychopraticienne sous
-                        Wordpress.
+                        réalisant le site sous Wordpress d'une amie
+                        psychopraticienne .
                     </p>
                     <Link
                         to="https://caroline-gayral.com/"

@@ -19,7 +19,7 @@ export default function Navbar() {
                             className={
                                 location.pathname === '/'
                                     ? 'nav_list_text_active'
-                                    : 'nav_ist_text'
+                                    : 'nav_list_text'
                             }
                         >
                             Accueil

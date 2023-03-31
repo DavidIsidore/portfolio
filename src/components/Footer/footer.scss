@@ -5,7 +5,8 @@
     @include flex(row, flex-end, center);
     color: white;
     position: relative;
-    bottom: -450px;
+    //bottom: -360px;
+    top: 360px;
     &_text {
         position: relative;
         right: 50px;

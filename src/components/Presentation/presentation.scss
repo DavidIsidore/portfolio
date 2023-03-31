@@ -3,7 +3,7 @@
 .presentation {
     @include flex(column, center, center);
     position: relative;
-    top: 100px;
+    top: 50px;
     margin: 0 auto;
     &_text {
         font-size: 28px;
@@ -13,7 +13,8 @@
     &_block {
         @include flex(row, space-between, center);
         position: relative;
-        bottom: -240px;
+        //bottom: -240px;
+        top: 50px;
         width: 600px;
         &_img {
             gap: 50px;

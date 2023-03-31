@@ -11,7 +11,7 @@ export default function Projets() {
             <Bandeau />
             <Header />
             <Realisations />
-            <Button />
+
             <Footer />
         </div>
     )

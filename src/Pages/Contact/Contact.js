@@ -12,7 +12,7 @@ export default function Contact() {
             <Bandeau />
             <Header />
             <Callme />
-            <Button />
+
             <Footer />
         </main>
     )
