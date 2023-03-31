@@ -10,28 +10,65 @@
         font-size: 28px;
         position: relative;
         top: 50px;
+        @media screen and (max-width: 992px) {
+            font-size: 24px;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: 20px;
+        }
     }
     &_block {
         @include flex(row, space-between, center);
         position: relative;
         //bottom: -240px;
-        top: 50px;
+        top: 150px;
         width: 600px;
+        @media screen and (max-width: 992px) {
+            width: auto;
+            gap: 30px;
+        }
+        @media screen and (max-width: 500px) {
+            width: auto;
+            gap: 10px;
+        }
         &_img {
             gap: 50px;
             width: 256px;
             height: 256px;
+            @media screen and (max-width: 992px) {
+                gap: 30px;
+            }
+            @media screen and (max-width: 500px) {
+                gap: 10px;
+            }
+            &_single {
+                border-radius: 25px;
+                @media screen and (max-width: 992px) {
+                    width: 192px;
+                    height: 192px;
+                }
+                @media screen and (max-width: 500px) {
+                    width: 128px;
+                    height: 128px;
+                }
+            }
         }
         &_text {
             font-size: 24px;
+            @media screen and (max-width: 992px) {
+                font-size: 20px;
+            }
+            @media screen and (max-width: 500px) {
+                font-size: 16px;
+            }
         }
     }
 }
 
-.img_single {
+/*.img_single {
     width: 256px;
     border-radius: 25px;
-}
+}*/
 
 .presentation_block_img:hover {
     transform: scale(1.2);

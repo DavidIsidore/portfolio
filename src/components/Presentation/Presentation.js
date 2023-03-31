@@ -19,22 +19,22 @@ export default function Presentation() {
                 <p>Que voulez-vous découvrir en premier? </p>
             </div>
             <div className="presentation_block">
-                <Link to="/about">
-                    <div className="presentation_block_img">
+                <Link to="/about" className="presentation_block_img">
+                    <div>
                         <img
                             src={photo}
                             alt="identité"
-                            className="img_single"
+                            className="presentation_block_img_single"
                         />
                         <p className="presentation_block_text">La personne</p>
                     </div>
                 </Link>
-                <Link to="/projets">
-                    <div className="presentation_block_img">
+                <Link to="/projets" className="presentation_block_img">
+                    <div>
                         <img
                             src={computer}
                             alt="représentation écran"
-                            className="img_single"
+                            className="presentation_block_img_single"
                         />
                         <p className="presentation_block_text">
                             Le développeur
