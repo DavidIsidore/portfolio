@@ -1,6 +1,7 @@
 @import '../../sass/main.scss';
 
 .main {
+    height: 400px;
     position: relative;
     top: 100px;
 }
@@ -9,6 +10,12 @@
     @include flex(row, space-evenly, center);
     &_logo {
         width: 200px;
+        @media screen and (max-width: 992px) {
+            width: 100px;
+        }
+        @media screen and (max-width: 500px) {
+            width: 75px;
+        }
     }
 }
 
@@ -20,8 +27,18 @@
         position: relative;
         top: 30px;
         line-height: 200%;
+        @media screen and (max-width: 992px) {
+            font-size: 20px;
+        }
+        @media screen and (max-width: 500px) {
+            font-size: 18px;
+        }
         &_link {
             font-size: 24px;
+            @media screen and (max-width: 002px) {
+                font-size: 18px;
+            }
+            text-decoration: underline solid 2px $color-primary;
             color: $color-primary;
             position: relative;
             top: 40px;

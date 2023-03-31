@@ -3,7 +3,6 @@ import Header from '../../components/Header/Header'
 import Bandeau from '../../components/Bandeau/Bandeau'
 import Footer from '../../components/Footer/Footer'
 import './contact.scss'
-import Button from '../../components/Button/Button'
 import Callme from '../../components/Callme/Callme'
 
 export default function Contact() {
@@ -12,7 +11,6 @@ export default function Contact() {
             <Bandeau />
             <Header />
             <Callme />
-
             <Footer />
         </main>
     )

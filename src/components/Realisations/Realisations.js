@@ -63,7 +63,7 @@ export default function Realisations() {
                         Avant de commencer ma formation de développeur Web, je
                         m'étais déjà frotté à la création de contenu en
                         réalisant le site sous Wordpress d'une amie
-                        psychopraticienne .
+                        psychopraticienne :
                     </p>
                     <Link
                         to="https://caroline-gayral.com/"

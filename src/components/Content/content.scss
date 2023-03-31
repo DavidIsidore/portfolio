@@ -1,14 +1,33 @@
 @import '../../sass/main.scss';
 
 .content {
-    background-color: $color-secondary;
-    height: 700px;
-    color: $color-tertiary;
-    &_presentation {
-        @include flex(row, space-between, center);
-        width: 90%;
-        &_img {
-            width: 45%;
+    height: 400px;
+    &_text {
+        position: relative;
+        top: 50px;
+        line-height: 200%;
+        font-size: 24px;
+        width: 80%;
+        margin: 0 auto;
+        &_title {
+            position: relative;
+            top: 75px;
+        }
+    }
+
+    &_list {
+        @include flex(row, center, center);
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin: 0 auto;
+        width: 80%;
+        position: relative;
+        top: 100px;
+        list-style: none;
+        &_icon {
+            width: 40px;
         }
     }
 }
