@@ -5,8 +5,12 @@ import Footer from '../../components/Footer/Footer'
 import Bandeau from '../../components/Bandeau/Bandeau'
 import Presentation from '../../components/Presentation/Presentation'
 import './home.scss'
+import { useEffect } from 'react'
 
 export default function Home() {
+    useEffect(() => {
+        document.title = 'Accueil'
+    })
     return (
         <div>
             <Bandeau />
