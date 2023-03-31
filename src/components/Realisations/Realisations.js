@@ -62,8 +62,8 @@ export default function Realisations() {
                     <p className="wordpress_text">
                         Avant de commencer ma formation de développeur Web, je
                         m'étais déjà frotté à la création de contenu en
-                        réalisant le site sous Wordpress d'une amie
-                        psychopraticienne :
+                        réalisant le site sous Wordpress d'une psychopraticienne
+                        :
                     </p>
                     <Link
                         to="https://caroline-gayral.com/"

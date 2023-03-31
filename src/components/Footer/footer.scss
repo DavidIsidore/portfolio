@@ -7,8 +7,26 @@
     position: relative;
     //bottom: -360px;
     top: 360px;
+    @media screen and (max-width: 992px) {
+        @include flex(row, center, center);
+        flex-wrap: wrap;
+        width: auto;
+    }
+    @media screen and (max-width: 500px) {
+        @include flex(row, center, center);
+        flex-wrap: wrap;
+        width: auto;
+    }
     &_text {
         position: relative;
         right: 50px;
+        @media screen and (max-width: 992px) {
+            flex-wrap: wrap;
+            right: 0px;
+        }
+        @media screen and (max-width: 500px) {
+            flex-wrap: wrap;
+            right: 0px;
+        }
     }
 }
