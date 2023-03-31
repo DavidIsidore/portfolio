@@ -4,7 +4,7 @@ import Footer from '../../components/Footer/Footer'
 import Header from '../../components/Header/Header'
 
 import Content from '../../components/Content/Content'
-import { useEffect } from 'react'
+//import {useEffect } from 'react'
 
 export default function About() {
     useEffect(() => {
