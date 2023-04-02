@@ -1,0 +1,12 @@
+@import '../../sass/main.scss';
+
+.error {
+    @include flex(column, center, center);
+    &_number {
+        font-size: 56px;
+        font-weight: 700;
+    }
+    &_text {
+        font-size: 28px;
+    }
+}
