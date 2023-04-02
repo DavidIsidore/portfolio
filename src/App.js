@@ -5,8 +5,11 @@ import About from './Pages/About/About'
 import Contact from './Pages/Contact/Contact'
 import Projets from './Pages/Projets/Projets'
 import NotFound from './Pages/NotFound/NotFound'
+import { useLocation } from 'react-router-dom'
+import { Navigate } from 'react-router-dom'
 
 function App() {
+    const location = useLocation()
     return (
         <div className="App">
             <Routes>
@@ -16,6 +19,46 @@ function App() {
                 <Route path="/projets/:id" element={<Projets />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/*" element={<NotFound />} />
+                <Route
+                    path="/notfound"
+                    element={() =>
+                        (location.pathname = '/' ? (
+                            <Home />
+                        ) : (
+                            <Navigate to="/*" />
+                        ))
+                    }
+                />
+                <Route
+                    path="/notfound"
+                    element={() =>
+                        (location.pathname = '/about' ? (
+                            <About />
+                        ) : (
+                            <Navigate to="/*" />
+                        ))
+                    }
+                />
+                <Route
+                    path="/notfound"
+                    element={() =>
+                        (location.pathname = '/projets' ? (
+                            <Projets />
+                        ) : (
+                            <Navigate to="/*" />
+                        ))
+                    }
+                />
+                <Route
+                    path="/notfound"
+                    element={() =>
+                        (location.pathname = '/contact' ? (
+                            <Contact />
+                        ) : (
+                            <Navigate to="/*" />
+                        ))
+                    }
+                />
             </Routes>
         </div>
     )
