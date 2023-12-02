@@ -1,7 +1,7 @@
 import React from 'react'
 import computer from '../../assets/Computer.png'
 //import photo from '../../assets/Photo.png'
-import photo_presentation from './../assets/Photo présentation.jpg'
+import photo_presentation from './../assets/Photo_présentation.jpg'
 import './presentation.scss'
 import { Link } from 'react-router-dom'
 
