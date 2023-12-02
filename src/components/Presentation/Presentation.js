@@ -1,7 +1,7 @@
 import React from 'react'
 import computer from '../../assets/Computer.png'
-import photo from '../../assets/Photo.png'
-import photo-presentation from './../assets/Photo présentation.jpg'
+//import photo from '../../assets/Photo.png'
+import photo_presentation from './../assets/Photo présentation.jpg'
 import './presentation.scss'
 import { Link } from 'react-router-dom'
 
@@ -23,7 +23,7 @@ export default function Presentation() {
                 <Link to="/about" className="presentation_block_img">
                     <div>
                         <img
-                            src={photo-presentation}
+                            src={photo_presentation}
                             alt="identité"
                             className="presentation_block_img_single"
                         />
