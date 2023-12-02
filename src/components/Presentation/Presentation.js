@@ -23,7 +23,7 @@ export default function Presentation() {
                 <Link to="/about" className="presentation_block_img">
                     <div>
                         <img
-                            src={photo_presentation}
+                            src={photo2}
                             alt="identité"
                             className="presentation_block_img_single"
                         />
